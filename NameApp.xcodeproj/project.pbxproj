@@ -8,18 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		C6A7229C26F5D923008F3E68 /* NameAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A7229B26F5D923008F3E68 /* NameAppApp.swift */; };
-		C6A7229E26F5D923008F3E68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A7229D26F5D923008F3E68 /* ContentView.swift */; };
 		C6A722A026F5D924008F3E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A7229F26F5D924008F3E68 /* Assets.xcassets */; };
 		C6A722A326F5D924008F3E68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A722A226F5D924008F3E68 /* Preview Assets.xcassets */; };
+		C6A722AB26F5DA31008F3E68 /* UsernameTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A722AA26F5DA31008F3E68 /* UsernameTextField.swift */; };
+		C6A722AF26F5DE62008F3E68 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A722AE26F5DE62008F3E68 /* RegistrationView.swift */; };
+		C6A722B126F5DF97008F3E68 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A722B026F5DF97008F3E68 /* UserManager.swift */; };
+		C6A722B326F5E34B008F3E68 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A722B226F5E34B008F3E68 /* DataManager.swift */; };
+		C6A722B726F5E8B2008F3E68 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A722B626F5E8B2008F3E68 /* MainView.swift */; };
+		C6A722B926F5E964008F3E68 /* TimerCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A722B826F5E964008F3E68 /* TimerCounter.swift */; };
+		C6A722BD26F5F130008F3E68 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A722BC26F5F130008F3E68 /* StarterView.swift */; };
+		C6A722BF26F5F38E008F3E68 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A722BE26F5F38E008F3E68 /* ButtonView.swift */; };
+		C6A722C126F5F51E008F3E68 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A722C026F5F51E008F3E68 /* CounterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C6A7229826F5D923008F3E68 /* NameApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NameApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A7229B26F5D923008F3E68 /* NameAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameAppApp.swift; sourceTree = "<group>"; };
-		C6A7229D26F5D923008F3E68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C6A7229F26F5D924008F3E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6A722A226F5D924008F3E68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C6A722A426F5D924008F3E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6A722AA26F5DA31008F3E68 /* UsernameTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameTextField.swift; sourceTree = "<group>"; };
+		C6A722AE26F5DE62008F3E68 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		C6A722B026F5DF97008F3E68 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		C6A722B226F5E34B008F3E68 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		C6A722B626F5E8B2008F3E68 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C6A722B826F5E964008F3E68 /* TimerCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerCounter.swift; sourceTree = "<group>"; };
+		C6A722BC26F5F130008F3E68 /* StarterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StarterView.swift; path = "../../../../Downloads/Lesson 3.4/HW/StateAndDataFlow/StateAndDataFlow/StarterView.swift"; sourceTree = "<group>"; };
+		C6A722BE26F5F38E008F3E68 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		C6A722C026F5F51E008F3E68 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +69,15 @@
 			isa = PBXGroup;
 			children = (
 				C6A7229B26F5D923008F3E68 /* NameAppApp.swift */,
-				C6A7229D26F5D923008F3E68 /* ContentView.swift */,
+				C6A722BC26F5F130008F3E68 /* StarterView.swift */,
+				C6A722B626F5E8B2008F3E68 /* MainView.swift */,
+				C6A722C026F5F51E008F3E68 /* CounterView.swift */,
+				C6A722B826F5E964008F3E68 /* TimerCounter.swift */,
+				C6A722BE26F5F38E008F3E68 /* ButtonView.swift */,
+				C6A722AA26F5DA31008F3E68 /* UsernameTextField.swift */,
+				C6A722AE26F5DE62008F3E68 /* RegistrationView.swift */,
+				C6A722B026F5DF97008F3E68 /* UserManager.swift */,
+				C6A722B226F5E34B008F3E68 /* DataManager.swift */,
 				C6A7229F26F5D924008F3E68 /* Assets.xcassets */,
 				C6A722A426F5D924008F3E68 /* Info.plist */,
 				C6A722A126F5D924008F3E68 /* Preview Content */,
@@ -138,8 +162,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6A7229E26F5D923008F3E68 /* ContentView.swift in Sources */,
+				C6A722B126F5DF97008F3E68 /* UserManager.swift in Sources */,
+				C6A722B926F5E964008F3E68 /* TimerCounter.swift in Sources */,
+				C6A722B726F5E8B2008F3E68 /* MainView.swift in Sources */,
 				C6A7229C26F5D923008F3E68 /* NameAppApp.swift in Sources */,
+				C6A722BD26F5F130008F3E68 /* StarterView.swift in Sources */,
+				C6A722B326F5E34B008F3E68 /* DataManager.swift in Sources */,
+				C6A722AB26F5DA31008F3E68 /* UsernameTextField.swift in Sources */,
+				C6A722AF26F5DE62008F3E68 /* RegistrationView.swift in Sources */,
+				C6A722BF26F5F38E008F3E68 /* ButtonView.swift in Sources */,
+				C6A722C126F5F51E008F3E68 /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
