@@ -11,9 +11,9 @@ struct StarterView: View {
                 MainView()
             } else {
                 RegistrationView()
-                .onTapGesture {
-                    UIApplication.shared.endEditing()
-                }
+                    .onTapGesture {
+                        UIApplication.shared.endEditing()
+                    }
             }
         }
     }

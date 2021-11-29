@@ -8,30 +8,30 @@
 import SwiftUI
 
 struct MainView: View {
+    
     @EnvironmentObject var userManager: UserManager
     @StateObject var timer = TimeCounter()
+    
     var body: some View {
         VStack {
-        Text("Hello, \(userManager.user.name) !")
-            .font(.largeTitle)
-            .padding()
+            Text("Hello, \(userManager.user.name) !")
+                .font(.largeTitle)
+                .padding()
             CounterView(text: "\(timer.counter)")
                 .padding()
-        Spacer()
+            
+            Spacer()
+            
             VStack{
                 
-                ButtonView(title: timer.buttonTitle,
-                           color: .green) {
+                ButtonView(title: timer.buttonTitle, color: .green) {
                     timer.start()
                 }
                 Spacer()
-                ButtonView(title: "LogOut",
-                           color: .blue){
+                ButtonView(title: "LogOut", color: .blue) {
                     DataManager.shared.clear(for: userManager)
-                    
                 }
             }
-            
         }
     }
 }
