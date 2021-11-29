@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C62D29742754D2FF0097B47D /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F094412754D00C0008719C /* StarterView.swift */; };
 		C6A7229C26F5D923008F3E68 /* NameAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A7229B26F5D923008F3E68 /* NameAppApp.swift */; };
 		C6A722A026F5D924008F3E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A7229F26F5D924008F3E68 /* Assets.xcassets */; };
 		C6A722A326F5D924008F3E68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A722A226F5D924008F3E68 /* Preview Assets.xcassets */; };
@@ -16,7 +17,6 @@
 		C6A722B326F5E34B008F3E68 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A722B226F5E34B008F3E68 /* DataManager.swift */; };
 		C6A722B726F5E8B2008F3E68 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A722B626F5E8B2008F3E68 /* MainView.swift */; };
 		C6A722B926F5E964008F3E68 /* TimerCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A722B826F5E964008F3E68 /* TimerCounter.swift */; };
-		C6A722BD26F5F130008F3E68 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A722BC26F5F130008F3E68 /* StarterView.swift */; };
 		C6A722BF26F5F38E008F3E68 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A722BE26F5F38E008F3E68 /* ButtonView.swift */; };
 		C6A722C126F5F51E008F3E68 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A722C026F5F51E008F3E68 /* CounterView.swift */; };
 /* End PBXBuildFile section */
@@ -33,7 +33,6 @@
 		C6A722B226F5E34B008F3E68 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		C6A722B626F5E8B2008F3E68 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		C6A722B826F5E964008F3E68 /* TimerCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerCounter.swift; sourceTree = "<group>"; };
-		C6A722BC26F5F130008F3E68 /* StarterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StarterView.swift; path = "../../../../Downloads/Lesson 3.4/HW/StateAndDataFlow/StateAndDataFlow/StarterView.swift"; sourceTree = "<group>"; };
 		C6A722BE26F5F38E008F3E68 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		C6A722C026F5F51E008F3E68 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		C6F094412754D00C0008719C /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
@@ -70,9 +69,9 @@
 			isa = PBXGroup;
 			children = (
 				C6A7229B26F5D923008F3E68 /* NameAppApp.swift */,
-				C6F094402754D00C0008719C /* View */,
+				C6F094412754D00C0008719C /* StarterView.swift */,
+				C6A722B626F5E8B2008F3E68 /* MainView.swift */,
 				C6F094422754D01C0008719C /* Components */,
-				C6A722BC26F5F130008F3E68 /* StarterView.swift */,
 				C6F0943F2754CFE80008719C /* Service */,
 				C6A7229F26F5D924008F3E68 /* Assets.xcassets */,
 				C6A722A426F5D924008F3E68 /* Info.plist */,
@@ -96,15 +95,6 @@
 				C6A722B226F5E34B008F3E68 /* DataManager.swift */,
 			);
 			path = Service;
-			sourceTree = "<group>";
-		};
-		C6F094402754D00C0008719C /* View */ = {
-			isa = PBXGroup;
-			children = (
-				C6F094412754D00C0008719C /* StarterView.swift */,
-				C6A722B626F5E8B2008F3E68 /* MainView.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		C6F094422754D01C0008719C /* Components */ = {
@@ -192,9 +182,9 @@
 				C6A722B926F5E964008F3E68 /* TimerCounter.swift in Sources */,
 				C6A722B726F5E8B2008F3E68 /* MainView.swift in Sources */,
 				C6A7229C26F5D923008F3E68 /* NameAppApp.swift in Sources */,
-				C6A722BD26F5F130008F3E68 /* StarterView.swift in Sources */,
 				C6A722B326F5E34B008F3E68 /* DataManager.swift in Sources */,
 				C6A722AB26F5DA31008F3E68 /* UsernameTextField.swift in Sources */,
+				C62D29742754D2FF0097B47D /* StarterView.swift in Sources */,
 				C6A722AF26F5DE62008F3E68 /* RegistrationView.swift in Sources */,
 				C6A722BF26F5F38E008F3E68 /* ButtonView.swift in Sources */,
 				C6A722C126F5F51E008F3E68 /* CounterView.swift in Sources */,
