@@ -14,7 +14,7 @@ var text = ""
         ZStack {
             Circle()
                 .frame(width: 100, height: 100)
-                .foregroundColor(.orange)
+                .foregroundColor(.green)
             Text("\(text)")
                 .foregroundColor(.white)
                 .font(.largeTitle)
