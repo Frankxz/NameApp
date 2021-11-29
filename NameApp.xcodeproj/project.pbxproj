@@ -37,7 +37,6 @@
 		C6A722BE26F5F38E008F3E68 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		C6A722C026F5F51E008F3E68 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		C6F094412754D00C0008719C /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
-		C6F094432754D01C0008719C /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +110,6 @@
 		C6F094422754D01C0008719C /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				C6F094432754D01C0008719C /* StarterView.swift */,
 				C6A722C026F5F51E008F3E68 /* CounterView.swift */,
 				C6A722B826F5E964008F3E68 /* TimerCounter.swift */,
 				C6A722BE26F5F38E008F3E68 /* ButtonView.swift */,

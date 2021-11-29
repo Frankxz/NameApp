@@ -12,17 +12,16 @@ struct UsernameTextField: View {
     var nameIsValid = false
     var body: some View {
         HStack {
-        TextField("Enter your name", text: $name )
-            .multilineTextAlignment(.center)
-            .frame(width: 200, height: 35)
-            .overlay(RoundedRectangle(cornerRadius: 10)
-                        .stroke(lineWidth: 2)
-                        .foregroundColor(.blue))
+            TextField("Enter your name", text: $name )
+                .multilineTextAlignment(.center)
+                .frame(width: 200, height: 35)
+                .overlay(RoundedRectangle(cornerRadius: 10)
+                            .stroke(lineWidth: 2)
+                            .foregroundColor(.blue))
             Text("\(name.count)")
                 .foregroundColor(nameIsValid ? .green : .red)
-               
+            
         }
-        
     }
 }
 

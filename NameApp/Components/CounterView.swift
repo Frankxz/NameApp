@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CounterView: View {
-var text = ""
+    var text = ""
     
     var body: some View {
         ZStack {

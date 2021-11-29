@@ -26,18 +26,18 @@ class TimeCounter: ObservableObject {
         }
         buttonPressed()
     }
-        
-       private func buttonPressed() {
-            if buttonTitle == "Reset" {
-                counter = 5
-                buttonTitle = "Start"
-            } else {
-                buttonTitle = "Wait..."
-            }
+    
+    private func buttonPressed() {
+        if buttonTitle == "Reset" {
+            counter = 5
+            buttonTitle = "Start"
+        } else {
+            buttonTitle = "Wait..."
+        }
         
         objectWillChange.send(self)
-        }
-
+    }
+    
     @objc private func update() {
         if counter > 0 {
             counter -= 1
@@ -47,7 +47,7 @@ class TimeCounter: ObservableObject {
         }
         objectWillChange.send(self)
     }
-        
+    
     private func killTimer() {
         timer?.invalidate()
         timer = nil
